@@ -27,7 +27,7 @@ class JWTAuth
 
         ];
 
-        return JWTAuth::encode($token, $secretKey);;
+        return JWTAuth::encode($token, $secretKey);
     }
 
     /**
